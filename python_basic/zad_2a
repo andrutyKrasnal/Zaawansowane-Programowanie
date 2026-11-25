@@ -1,0 +1,8 @@
+def RazyDwaFor(liczby):
+    nowa_lista = []
+    for liczba in liczby:
+        nowa_lista.append(liczba *2)
+    return nowa_lista
+
+liczby_for = [2, 1, 3, 7, -67]
+print(RazyDwaFor(liczby_for))

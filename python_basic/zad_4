@@ -1,0 +1,5 @@
+def CoDwa(liczby):
+    return liczby[::2]
+
+liczby10v2 = list(range(10))
+print(CoDwa(liczby10v2))

@@ -1,0 +1,9 @@
+def Parzyste(liczby):
+    parzyste = []
+    for liczba in liczby:
+        if liczba % 2 ==0:
+            parzyste.append(liczba)
+    return parzyste
+
+liczby10 = list(range(1, 11))
+print(Parzyste(liczby10))

@@ -1,63 +1,6 @@
-#####1#####
-
 def WyswietlImiona(imiona):
     for imie in imiona:
         print(imie)
 
-print(" ")
-print("Zadanie 1")
-print(" ")
 lista_imion = ["Bartek", "Jakub", "Kasia", "Jadwiga", "Ryszard",]
 WyswietlImiona(lista_imion)
-
-#####2.1#####
-
-def RazyDwaFor(liczby):
-    nowa_lista = []
-    for liczba in liczby:
-        nowa_lista.append(liczba *2)
-    return nowa_lista
-
-print(" ")
-print("Zadanie 2.1")
-print(" ")
-liczby_for = [2, 1, 3, 7, -67]
-print(RazyDwaFor(liczby_for))
-
-#####2.2#####
-
-def razyDwaSkladana(liczby):
-    return[liczba * 2 for liczba in liczby]
-
-liczby2 = [-67, 2, 1, 3, 7]
-
-print(" ")
-print("Zadanie 2.2")
-print(" ")
-print(razyDwaSkladana(liczby2))
-
-#####3#####
-
-def Parzyste(liczby):
-    parzyste = []
-    for liczba in liczby:
-        if liczba % 2 ==0:
-            parzyste.append(liczba)
-    return parzyste
-
-print(" ")
-print("Zadanie 3")
-print(" ")
-liczby10 = list(range(1, 11))
-print(Parzyste(liczby10))
-
-#####4#####
-
-def CoDwa(liczby):
-    return liczby[::2]
-
-print(" ")
-print("Zadanie 3")
-print(" ")
-liczby10v2 = list(range(10))
-print(CoDwa(liczby10v2))
